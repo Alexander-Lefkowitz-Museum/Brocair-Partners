@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'BentonSansCond';
+  src: url('../fonts/benscnr_.eot');
+  src: url('../fonts/benscnr_.woff') format('woff'),
+       url('../fonts/benscnr_.ttf') format('truetype'),
+  	   url('../fonts/benscnr_.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/benscnr_.svg#benscnr_') format('svg');
+}
+@font-face {
+  font-family: 'BentonSansCond-Book';
+  src: url('../fonts/benscnbk.eot');
+  src: url('../fonts/benscnbk.woff') format('woff'),
+       url('../fonts/benscnbk.ttf') format('truetype'),
+  	   url('../fonts/benscnbk.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/benscnbk.svg#benscnbk') format('svg');
+}
+@font-face {
+  font-family: 'BentonSansCond-Black';
+  src: url('../fonts/benscnbl.eot');
+  src: url('../fonts/benscnbl.woff') format('woff'),
+       url('../fonts/benscnbl.ttf') format('truetype'),
+  	   url('../fonts/benscnbl.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/benscnbl.svg#benscnbl') format('svg');
+}
+@font-face {
+  font-family: 'BentonSansCond-Light';
+  src: url('../fonts/benscnlt.eot');
+  src: url('../fonts/benscnlt.woff') format('woff'),
+       url('../fonts/benscnlt.ttf') format('truetype'),
+  	   url('../fonts/benscnlt.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/benscnlt.svg#benscnlt') format('svg');
+}
+@font-face {
+  font-family: 'BentonSansCond-Medium';
+  src: url('../fonts/benscnmd.eot');
+  src: url('../fonts/benscnmd.woff') format('woff'),
+       url('../fonts/benscnmd.ttf') format('truetype'),
+  	   url('../fonts/benscnmd.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/benscnmd.svg#benscnmd') format('svg');
+}

@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Brocair - About</title>
+    <meta name="description" content="">
+<!--[if lt IE 9]>
+<style> section, article, aside, footer, header, nav, hgroup { display:block }</style>
+<script>
+var docCreateElement = document.createElement,
+    html5elms = ["header","footer","section","aside","nav","article","hgroup","time"],
+    elmsLength = html5elms.length;
+while (elmsLength) { elmsLength--; docCreateElement(html5elms.pop()) }
+</script>
+<![endif]-->
+<!--[if lt IE 8]>
+<style>hr {display:block}</style>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+<link rel="stylesheet" type="text/css" href="assets/css/brocair.css">
+</head>
+<body><div class="contain story">
+    <header>
+        <a href="index.html"><img src="assets/images/brocair.png" class="logo"/></a>
+        <nav>
+            <ul>
+                <li><a href="perspective.html">Our Perspective</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="map.html">Global Capabilities</a></li>
+                <li><a href="transactions.html">Transactions</a></li>
+                <li class="active"><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+       <ul id="dropDownPerspective" class="dropDown">
+            <li><a class="overview" href="perspective.html?perspective=overview">Overview</a></li>
+            <li><a class="focus" href="perspective.html?perspective=focus">Healthcare Focus</a></li>
+            <li><a class="attention" href="perspective.html?perspective=attention">Personal Attention</a></li>
+            <li><a class="market" href="perspective.html?perspective=market">Market Intelligence</a></li>
+        </ul>
+        <ul id="dropDownServices" class="dropDown">
+            <li><a class="mergers" href="services.html?service=mergers">Mergers &amp; Acquisitions</a></li>
+            <li><a class="recap" href="services.html?service=recap">Recapitalizations &amp; Private Placements</a></li>
+            <li><a class="divestitures" href="services.html?service=divestitures">Corporate Divestitures</a></li>
+            <li><a class="advisory" href="services.html?service=advisory">Advisory Services</a></li>
+        </ul>
+        <ul id="dropDownResearch" class="dropDown">
+            <li><a class="blake" href="research.html?insight=blake">Executive Insights</a></li>
+            <li><a class="perspective" href="research.html?insight=perspective">Industry Perspectives</a></li>
+            <li><a class="analysis" href="research.html?insight=analysis">Market Analysis</a></li>
+            <li><a class="dispatchBrazil" href="research.html?insight=dispatchBrazil">Country Dispatches</a></li>
+        </ul>
+        <ul id="dropDownGlobal" class="dropDown">
+            <li><a class="us" href="global.html?us">United States</a></li>
+            <li><a class="brazil" href="global.html?brazil">Brazil</a></li>
+            <li><a class="canada" href="global.html?canada">Canada</a></li>
+            <li><a class="denmark" href="global.html?denmark">Denmark</a></li>
+            <li><a class="germany" href="global.html?germany">Germany</a></li>
+            <li><a class="india" href="global.html?india">India</a></li>
+            <li><a class="japan" href="global.html?japan">Japan</a></li>
+            <li><a class="mexico" href="global.html?mexico">Mexico</a></li>
+            <li><a class="sweden" href="global.html?sweden">Sweden</a></li>
+            <li><a class="switzerland" href="global.html?switzerland">Switzerland</a></li>
+            <li><a class="uk" href="global.html?uk">United Kingdom</a></li>
+        </ul>
+        <ul id="dropDownAbout" class="dropDown">
+            <li><a class="team" href="about.html">Team</a></li>
+            <li><a class="newyork" href="about.html?location=newyork">Locations</a></li>
+            <li><a href="about.html?news">News</a></li>
+        </ul>
+        <div class="billboard" style="background-image:url(assets/images/newyork_bb.jpg);"></div>
+    </header>
+<div id="content">
+    <aside>
+        <ul>
+            <li><a href="javascript:brocair.toTeam()"> Team</a>
+                <ul>
+                    <li><a class="blake" href="javascript:brocair.toMember('blake')">- Gregg Blake</a></li>
+                    <li><a class="fagan" href="javascript:brocair.toMember('fagan')">- Daniel T. Fagan, Ph.D.</a></li>
+                    <li><a class="foley" href="javascript:brocair.toMember('foley')">- Christopher Foley</a></li>
+                    <li><a class="ahmed" href="javascript:brocair.toMember('ahmed')">- Saba Ahmed</a></li>
+                    <li><a class="lettiere" href="javascript:brocair.toMember('lettiere')">- Jay Lettiere</a></li>
+                    <li><a class="bleier" href="javascript:brocair.toMember('bleier')">- Katrin Bleier</a></li>
+                    <li>- James Stotz</li>
+                </ul>
+            </li>
+            <li><a href="about.html?location=newyork">Locations</a>
+                <ul>
+                    <li><a class="newyork" href="javascript:brocair.toLocation('newyork')">- New York</a></li>
+                    <li><a class="atlanta" href="javascript:brocair.toLocation('atlanta')">- Atlanta</a></li>
+                    <li><a class="stlouis" href="javascript:brocair.toLocation('stlouis')">- St. Louis</a></li>
+                </ul>
+            </li>
+            <li><a class="news" href="javascript:brocair.toNews()">News</a></li>
+        </ul>
+    </aside>
+    
+    <div class="sections about">
+        <section>
+                <h1 class="teamHeader">Team</h1>
+                <h1 class="locationsHeader">Locations</h1>
+                
+                <hr>
+                <div id="aboutFront">
+                    <div class="member blake">
+                        <span class="title">Managing Partner</span>
+                        <img src="assets/images/faces/blake_big.jpg" />
+                        <span class="name">Gregg Blake</span>
+                        <hr>
+                    </div>
+                    <div class="member fagan">
+                        <span class="title">Managing Directors</span>
+                        <img src="assets/images/faces/fagan_big.jpg" />
+                        <span class="name">Daniel T. Fagan, PH.D</span>
+                        <hr>
+                    </div>
+                    <div class="member foley">
+                        <span class="title">&nbsp;</span>
+                        <img src="assets/images/faces/foley_big.jpg" />
+                        <span class="name">Christopher Foley</span>
+                        <hr>
+                    </div>
+                    <br class="end">
+                    <div class="member ahmed">
+                        <span class="title">Transaction Analysts</span>
+                        <img src="assets/images/faces/noface_big.jpg" />
+                        <span class="name">Saba Ahmed</span>
+                        <hr>
+                    </div>
+                    <div class="member lettiere">
+                        <span class="title">&nbsp;</span>
+                        <img src="assets/images/faces/noface_big.jpg" />
+                        <span class="name">Jay Lettiere</span>
+                        <hr>
+                    </div>
+                    <div class="member bleier">
+                        <span class="title">Researcher</span>
+                        <img src="assets/images/faces/bleier_big.jpg" />
+                        <span class="name">Katrin bleier</span>
+                        <hr>
+                    </div>
+                    <div class="member">
+                        <span class="title">Finance & Operations</span>
+                        <img src="assets/images/faces/noface_big.jpg" />
+                        <span class="name">James Stotz</span>
+                        <hr>
+                    </div>
+                </div>
+                <div id="members">
+                    <div class="blake">
+                        <span class="title">Managing Partner</span>
+                        <img src="assets/images/faces/blake_big.jpg" />
+                        <span class="name">Gregg Blake</span>
+                    </div>
+                    <div class="fagan">
+                        <span class="title">Managing Director</span>
+                        <img src="assets/images/faces/fagan_big.jpg" />
+                        <span class="name">Daniel T. Fagan, PH.D</span>
+                    </div>
+                    <div class="foley">
+                        <span class="title">Managing Director</span>
+                        <img src="assets/images/faces/foley_big.jpg" />
+                        <span class="name">Christopher Foley</span>
+                    </div>
+
+                    <div class="ahmed">
+                        <span class="title">Transaction Analyst</span>
+                        <img src="assets/images/faces/noface_big.jpg" />
+                        <span class="name">Saba Ahmed</span>
+                    </div>
+                    <div class="lettiere">
+                        <span class="title">Transaction Analyst</span>
+                        <img src="assets/images/faces/noface_big.jpg" />
+                        <span class="name">Jay Lettiere</span>
+                    </div>
+                    <div class="bleier">
+                        <span class="title">Researcher</span>
+                        <img src="assets/images/faces/bleier_big.jpg" />
+                        <span class="name">Katrin bleier</span>
+                    </div>
+                </div>
+
+            <div id="memberLit">
+                <div class="blake">
+                    <p>Mr. Blake founded Brocair Partners in 2004 with a focus on providing advisory services to healthcare companies on a variety of merger and acquisition, financing, and strategic matters.  Mr. Blake has an exceptional set of senior-level relationships in the healthcare industry, and has worked with clients that range from large publicly-traded healthcare companies to small family-owned businesses.</p>
+                    <p>Mr. Blake also manages the firm’s relationships with its international affiliates and regularly spends time meeting with healthcare businesses in Europe, Japan, India and Brazil.</p>
+                    <p>Prior to founding Brocair Partners, Mr. Blake was an investment banker with Burnham Securities, a middle-market boutique in New York, where he advised on a variety of healthcare industry transactions as well as rendering fairness opinions and providing expert witness services on corporate finance litigation.  Prior to Burnham, he was an investment banker and head of business development at Marco Polo Partners, an investment bank dedicated to the emerging markets.</p>
+                    <p>Mr. Blake was previously the founder and CEO of Internaut Trading Ltd., a Dublin-based, pan-European online securities brokerage, and began his career with Lehman Brothers and JP Morgan.  He holds an M.S. in International Political Economy from Florida State University, and was an undergraduate at Southern Illinois University.</p>
+                
+                    <span>Location: New York |  Direct: 212.500.5020 | Mobile: 917.374.4533 | Fax: 917.591.3200 | Email: <a href="mailto:gblake@brocair.com">gblake@brocair.com</a></span>
+                </div>
+                <div class="fagan">
+                    <p>Dr. Fagan was appointed as a director of Synthetech, Inc. in 2001 and was Chairman of the Board from 2005 until the company was sold to W.R. Grace & Co. in November 2010.  He served as the sole member of the Board's Strategic Development Committee from February 2006 through October 2006.  Between November 2006 and June 2008, Dr. Fagan served as the Chief Executive Officer of Synthetech.</p>
+                    <p>Dr. Fagan was President and CEO and a director of PepTx, Inc., a private early stage pharmaceutical company that is developing peptide based oncology therapeutics from January 2004 through September 2006.  Dr. Fagan continues to serve as a director of PepTx.  From July 2001 through 2003, Dr. Fagan was President of ProGen Biologics LLC, a private biopharmaceutical company that develops healthcare solutions for people suffering from autoimmune diseases. In addition, since November 2000, Dr. Fagan has also served as a consultant to the pharmaceutical and emerging pharmaceutical industries.</p>
+                    <p>From 1992 to 2000, Dr. Fagan was employed as the General Manager of Peptides by Mallinckrodt, Inc., a subsidiary of Tyco International that manufactures bulk pharmaceuticals. From 1978 to 1991, he was employed in various capacities, including President, from 1987 to 1991, of Sigma Chemical, a subsidiary of Sigma Aldrich Corporation that manufactures fine chemicals.</p>
+                    <p>Dr. Fagan holds a B.A. in Chemistry from Otterbein College and a Ph.D. in Chemistry from Case Western Reserve University.
+                    </p>
+
+                    <span>Location: St. Louis / New York | Mobile: 314.954.6554 | Mobile: 917.374.4533 | Fax: 917.591.3200 | Email: <a href="mailto:dfagan@brocair.com">dfagan@brocair.com</a></span>
+                </div>
+                <div class="foley">
+                    <p>Mr. Foley possesses more than 25 years of senior executive experience in the healthcare and technology services sectors.</p>
+                    <p>Mr. Foley was the President of CBay Systems, a global healthcare technology services group of companies, for seven years.  He was responsible for the overall operations, as well as establishing the strategic direction for the company. Under his leadership, CBay grew from $9 million in sales to over $600 million through organic growth, strategic acquisitions and partnerships to become one of the largest health care services companies in the world.  He raised in excess of $250 million from private equity firms to complete acquisitions of CBay’s two largest competitors with over $450 million in combined annual sales.  Mr. Foley is a dynamic industry pioneer who led CBay through a global expansion in over 12 countries, and through a highly successful public offering. </p>
+                    <p>Prior to joining CBay Systems, he was Vice President of MedQuist Inc., a $550 million, publicly-held, multi-national medical services provider, where he was responsible for company operations, strategic partnerships, and worldwide market development. In his time at MedQuist, he helped the company to rapidly expand its business by completing over 50 acquisitions.  He assisted in leading the company through a successful fractional acquisition by Royal Philips of $1.2 billion in 2000.  </p>
+                    <p>Mr. Foley also Founded and served as Chief Executive Officer of BSI Inc., a leading hardware and services consolidator in the telecommunications industry, where he built relations and partnerships with major manufacturers, distributors, and service providers domestically and internationally, such as AT&T, Sprint, MCI and WorldCom.  Mr. Foley led the company through a successful sale in 1998.  </p>
+                    <p>Mr. Foley began his career in senior executive management at publicly-held Lanier Worldwide, a $1 billion market leader in document management solutions, where he was responsible for marketing, federal government relations, healthcare, and major corporate account development.</p>
+                    <p>Mr. Foley served on the Board of Directors of several companies, including CBay Systems, AAI, Priam Limited, Argo Health, and BSI.  He has ownership and board positions in SciTexx Global, Folbri, and Priam Limited.
+
+
+                    <span>Location: New York | Direct: 212.500.5020 | Mobile: 917.374.4533 | Fax: 917.591.3200 | Email: <a href="mailto:gblake@brocair.com">gblake@brocair.com</a></span>
+                </div>
+                <div class="ahmed">
+                    <p>Ms. Ahmed joined Brocair in 2012 and was most recently an Analyst in American Express’ Enterprise Growth Group, focusing on the prepaid payments market. Ms. Ahmed is responsible for research, due diligence, and transaction execution across all healthcare industry segments.</p>
+
+                    <p>Ms. Ahmed has held prior positions at Paragon Capital LP and Time Warner subsidiary Time Inc. She is a graduate of New York University’s Leonard N. Stern School of Business with a dual degree in Finance and International Business.</p>
+
+                    <span>Location: New York | Direct: 212.500.5018 | Mobile: 845.641.2061 | Fax: 917.591.3200 | Email: <a href="mailto:sahmed@brocair.com">sahmed@brocair.com</a></span>
+                </div>
+                <div class="lettiere">
+                    <p>Mr. Lettiere joined Brocair in 2011 and was most recently an Analyst at Ipreo LLC, a global provider of market intelligence to publically listed companies and investment banks. At Brocair, Mr. Lettiere is responsible for research, due diligence, and transaction execution across all healthcare industry segments.</p>
+                    <p>Mr. Lettiere has held prior positions at Citi Smith Barney and GRASP Business Brokers. He is a graduate of Bentley University with a dual degree in Economics and Finance.</p>
+                
+                <span>Location: New York | Direct: 212.500.5019 | Mobile: 973.978.7594 | Fax: 917.591.3200 | Email: <a href="mailto:jlettiere@brocair.com">jlettiere@brocair.com</a></span>
+                    </div>
+                <div class="bleier">
+                    <p>Ms. Bleier joined Brocair in 2012 with a focus on European transactional and business development research, concentrating on German and Spanish language markets.  She is currently pursuing an undergraduate degree at HDU-Hochschule Deggendorf University of Applied Sciences in Germany.</p>
+                    <span>Mobile: +49 (160) 9220 0430 | Email: <a href="mailto:kbleier@brocair.com">kbleier@brocair.com</a></span>
+                </div>
+                <div class="stotz">
+                    <p></p>
+                    <span></span>
+                </div>
+            </div>
+            <div class="location newyork">
+                <a href="https://maps.google.com/maps?q=317+Madison+Avenue&hl=en&ll=40.753645,-73.978822&spn=0.00842,0.020385&sll=40.07304,-74.724323&sspn=4.354738,10.437012&t=h&hnear=317+Madison+Ave,+New+York,+10017&z=16&iwloc=A">
+                <img src="assets/images/map_newyork.png" /></a>
+                <h2>New York (Headquarters)</h2>
+                <div class="address">
+                    317 Madison Avenue
+                    <br>21st Floor
+                    <br>New York, NY 10017
+                    <br>(entrance on 42nd Street)
+                    <br>+1 212.500.5015
+                    <br/><br/><a class="readMore" href="https://maps.google.com/maps?q=317+Madison+Avenue&hl=en&ll=40.753645,-73.978822&spn=0.00842,0.020385&sll=40.07304,-74.724323&sspn=4.354738,10.437012&t=h&hnear=317+Madison+Ave,+New+York,+10017&z=16&iwloc=A">Directions &gt;</a>
+                </div>
+            </div>
+            <div class="location atlanta">
+                <a href="https://maps.google.com/maps?q=3525+Piedmont+Road+7+Piedmont+Center,+3rd+Floor+Atlanta,+GA+30305&hl=en&ll=33.854308,-84.378433&spn=0.036922,0.081539&sll=33.851093,-84.377388&sspn=0.009231,0.020385&t=h&hq=3525+Piedmont+Road+7+Piedmont+Center,+3rd+Floor&hnear=Atlanta,+Georgia+30305&z=14&iwloc=A">
+                <img src="assets/images/map_atlanta.png" /></a>
+                <h2>Atlanta</h2>
+                <div class="address">
+                    3525 Piedmont Road
+                    <br>7 Piedmont Center, 3rd Floor
+                    <br>Atlanta, GA 30305
+                    <br/><br/><a class="readMore" href="https://maps.google.com/maps?q=3525+Piedmont+Road+7+Piedmont+Center,+3rd+Floor+Atlanta,+GA+30305&hl=en&ll=33.854308,-84.378433&spn=0.036922,0.081539&sll=33.851093,-84.377388&sspn=0.009231,0.020385&t=h&hq=3525+Piedmont+Road+7+Piedmont+Center,+3rd+Floor&hnear=Atlanta,+Georgia+30305&z=14&iwloc=A">Directions &gt;</a>
+                </div>
+            </div>
+            <div class="location stlouis">
+                <a href="https://maps.google.com/maps?q=10805+Sunset+Office+Drive+Suite+300+St.+Louis,+MO+63127&hl=en&ll=38.556875,-90.410936&spn=0.008692,0.020385&sll=33.854308,-84.378433&sspn=0.036922,0.081539&t=h&hnear=10805+Sunset+Office+Dr+%23300,+St+Louis,+Missouri+63127&z=16">
+                <img src="assets/images/map_stlouis.png" /></a>
+                <h2>St. Louis</h2>
+                <div class="address">
+                    10805 Sunset Office Drive
+                    <br>Suite 300
+                    <br>St. Louis, MO 63127
+                    <br/><br/><a class="readMore" href="https://maps.google.com/maps?q=10805+Sunset+Office+Drive+Suite+300+St.+Louis,+MO+63127&hl=en&ll=38.556875,-90.410936&spn=0.008692,0.020385&sll=33.854308,-84.378433&sspn=0.036922,0.081539&t=h&hnear=10805+Sunset+Office+Dr+%23300,+St+Louis,+Missouri+63127&z=16">Directions &gt;</a>
+                </div>
+            </div>
+            <div class="news">
+                <select name="newsDropdown" id="newsDropdown" onChange="javascript:brocair.newsChange()">
+                    <option value="news1">Brocair advises Biomain AB in sale to Heraeus Group</option>
+                    <option value="news2">Article on Recovery of Healthcare M&A References Brocair Part…</option>
+                    <option value="news3">Brocair advises Synthetech, Inc. in sale to W.R. Grace & Co.</option>
+                    <option value="news4">Brocair Partners Quoted in Article on Medical Device Industry</option>
+                </select>
+                <article id="news1">
+                <h1 class="newsHeader">Brocair advises Biomain AB in sale to Heraeus Group</h1>
+                    <hr>
+                    <h2>Brocair Partners LLC, an investment bank serving the healthcare industry, advised <br>Biomain AB in its sale to Heraeus Group</h2>
+                    <div class="articleColumn">
+                    <p>
+                        Brocair Partners LLC, an investment bank serving the healthcare industry, advised Biomain AB in its sale to Heraeus Group</p>
+                    <p>
+                        NEW YORK, NY – March 5, 2012 – Brocair Partners LLC, an investment banking firm serving the healthcare industry, in conjunction with Experia Corporate Finance Advisors AB, based in Stockholm, advised Biomain AB, a Helsingborg, Sweden-based dental prosthetics company, on their sale to Heraeus Dental, part of the Heraeus Group, a precious metals and technology holding company based in Hanau, Germany.</p>
+                    <p>
+                        The acquisition strengthens Heraeus' presence in the Northern European dental market and expands its patent and product portfolio in digital implant prosthetics.</p>
+                    <p>
+                        Gregg Blake, Managing Partner of Brocair, explained, "Biomain had a set of products and intellectual property that had enabled them to attain a dominant position in the Nordics in the CAD/CAM dental prosthetics space.  This is a rapidly growing market, and we found there was strong demand from major dental industry players with a strategic interest in the field. The valuation reflected the competitive nature of the process and the high level of strategic interest."</p>
+                    <p>
+                        Anders Williamsson, Chairman of Biomain, remarked "As Chairman of the business, I was impressed with the speed and quality of the investment banking effort, and the transaction value was an exceptional endorsement of the quality of the business. The Board and owners were extremely pleased with the whole process, and the outcome was a classic win-win situation for both the company and the buyer."</p>
+                    </div>
+                    <div class="articleColumn">
+                    <p>
+                        Håkan Persson, Managing Partner of Experia, commented "This demonstrates again the virtues of a transatlantic advisory team with members from both Brocair and Experia. With professionals covering our different geographies and time zones, we could market the opportunity to all relevant parties, creating the competitive selling process that was the key to the successful outcome for our client."</p>
+                    <p>
+                        Mr. Blake summarized, "The transaction was an excellent fit for both parties—Biomain has the advantage of being part of a larger platform, and Heraeus has an opportunity to expand its product range and market share in Northern Europe."</p>
+                    <p>
+                        The purchase price was not disclosed, but Swedish press reports indicate the valuation was in excess of SEK 200 million.</p>
+                    <p>
+                      Founded in 2002, Biomain AB, based in Helsingborg, Sweden, is the Scandinavian market leader in the field of custom CAD/CAM-produced implant prosthetics and has a workforce of 40 employees.</p>
+                    <p>Heraeus, the precious metals and technology group headquartered in Hanau, Germany, is a global, private company with 160 years of tradition.  Its fields of competence include precious metals, materials and technologies; sensors; biomaterials; and medical products, as well as dental products, quartz glass, and specialty light sources. With product revenues of €4.1 billion and precious metals trading revenues of €17.9 billion, as well as more than 12,900 employees in over 120 subsidiaries worldwide, Heraeus holds a leading position in its global markets.</p>
+                    </div>
+                    <br class="end">
+                </article>
+                <article id="news2">
+                <h1 class="newsHeader">Article on Recovery of Healthcare M&A References Brocair Partners</h1>
+                    <hr>
+                    <h2>Clean Bill of Health </h2>
+                    <div class="articleColumn">
+                    <p>
+                        The Deal<br />
+	                    by Thomas Zadvydas <br />
+    	                Updated 02:07 PM, Dec-10-2010 ET
+                    </p>
+                    <p>M&amp;A activity has recovered from a two-year decline, and the healthcare industry is a driving force of the revival. <br>
+                      <br>
+                      There have been 1,037 healthcare mergers announced year to date, according to a November M&amp;A report from William Blair &amp; Co. LLC, topped only by the computer and electronics (1,993) and business services (1,287) sectors. <br>
+                      <br>
+                      The industry's prominent return to the auction tables is a result of several conspiring factors. For starters, drastic healthcare reform in the U.S., coupled with uncertainty for much of the year about potential changes in the country's tax code, have cast a pall over the biotechnology and pharmaceutical industries, pushing many companies to seek deals in order to adapt to an amorphous landscape. At the same time, looming patent expirations for compounds are driving many companies to go hunting for targets to fill holes in their pipeline. All of this is happening in a market still recovering from the worst economic downturn since the 1930s, leaving valuations restrained and obscured.<br>
+                      <br>
+                      "We continue to see a lot of consolidation; you're seeing big companies like Amgen Inc., Pfizer Inc., Johnson &amp; Johnson   to be actively looking in the market," says Jones Day life sciences partner Jonn Beeson.<br>
+                      <br>
+                      One driving factor is the pending loss of patent exclusivity on key drugs for many pharmaceutical companies. IMS Health Inc., which collects marketing data for the pharmaceutical and healthcare industries, says that more than three dozen drugs that produce about $137 billion in annual revenue are expected by 2013 to fall off the patent cliff, an apocalyptic term the industry uses to describe the coming end to the brand-name exclusivity that laws across the world grant their medications. <br>
+                      <br>
+                      Pfizer is one big pharmaceutical company grappling with this issue. <br>
+                      <br>
+                      <strong>"Everybody knows Lipitor is one of Pfizer's biggest products. It's a blockbuster [drug] and they're losing patent protection soon," says Gregg Blake, a managing partner at healthcare investment bank Brocair Partners LLC. "They're buying King Pharmaceuticals Inc. in order to bring in a bunch of new products and also diversify a little. King has a drug delivery business with injectibles and also an animal health business." </strong><br>
+                    </p>
+                    </div>
+                    <div class="articleColumn">
+						<p>
+                          Lipitor, which generated $13 billion in sales in 2009, falls off the patent cliff at the end of November 2011.<strong> Blake explains that sales of a drug can crater by as much as 90% in a year after a patent is lost and generic alternatives enter the market. </strong><br>
+                          <br>
+                          Pfizer announced an agreement on Oct. 12 to buy Bristol, Tenn.-based King Pharmaceuticals for $3.6 billion cash. About one week later, on Oct. 20, the New York pharma bought a 40% stake in Brazil's Laboratório Teuto Brasileiro SA for $240 million in an effort to expand its presence in both an emerging economy and the generic drugs market. Meanwhile, Pfizer has also placed its Capsugel hard capsules unit on the auction block, a move that could portend other noncore divestitures by the conglomerate, analysts say.<br>
+                          <br>
+                          <strong>"They've made a big strategic move into generics over the last 20 years," says Blake of Pfizer. "A lot of other big pharmaceutical companies are diversifying that way too."</strong><br>
+                          <br>
+                          Adding drugs new to the market, or even drugs in the late stages of development, through acquisitions also allows pharmaceutical companies to sidestep the long and arduous process of developing drugs from scratch, a costly undertaking that can take years, with no guarantee that the drug will ever reach the market, let alone become a financial success. <br>
+                          <br>
+                          "At the end of the day, pharmaceutical companies are finding that it is cheaper to buy than to just research," says Alden Philbrick, chief executive of Oxford Finance Corp.<br>
+                          <br>
+                          Gregory B. Brown, a managing director at Cowen Healthcare Royalty Partners, a healthcare private equity firm affiliated with Cowen Group Inc., agrees, adding that many pharmaceutical companies face increasing shareholder pressure to find cheaper, safer, alternatives. <br>
+                          <br>
+                          "It's an industry that has been acculturated or accustomed to taking capital that's generated from product revenue and plowing it back into research, but shareholders today are saying, 'Wait a minute, there may be a better way,' " Brown says, referring to the increase in M&amp;A. <br>
+                          <br>
+                        Expanding drug offerings via M&amp;A to appease shareholders is no sure bet, of course. Consider the plight of San Diego-based Cypress Bioscience Inc., which in September put itself up for sale after rejecting a sweetened $4.25 per share bid from shareholder Ramius Value &amp; Opportunity Acquisition LLC. The affiliate of New York hedge fund Ramius LLC, a 9.9% shareholder, on July 19 offered $4 per share, then a 60% premium over Cypress' share price, complaining that management had destroyed the drugmaker's shareholder value. Specifically, Ramius deemed Cypress' purchase of Proprius Pharmaceuticals Inc. "a complete failure," one that cost the company $40 million while generating less than $600,000 in revenue. Lagging drug production at Cypress was also a concern of Ramius. Two days before rejecting the hedge fund's first bid, Cypress said it would discontinue its co-promotion of the Savella drug with partner Forest Laboratories Inc. (Ramius raised its bid for Cypress to $5.50 per share on Friday.)</p>
+                    
+                    
+                    </div>
+                    <br class="end">
+                </article>
+                <article id="news3">
+                <h1 class="newsHeader">Brocair Partners Advises Public Pharmaceutical Intermediates Company on Sale to Strategic Buyer</h1>
+                    <hr>
+                    <h2>Brocair Partners LLC, an investment bank serving the healthcare industry, advised Synthetech, Inc. (OTCBB:NZYM) in the sale to W. R. Grace & Co. (NYSE:GRA)</h2>
+                    <div class="articleColumn">
+                    <p>
+                        Brocair Partners LLC, an investment bank serving the healthcare industry, advised Biomain AB in its sale to Heraeus Group</p>
+                    <p>NEW YORK, NY –  November 18, 2010 – Brocair Partners LLC, an investment banking firm serving the healthcare industry, advised Synthetech, Inc. (OTCBB:NZYM), a U.S. public company, in the sale to W.R. Grace &amp; Co., (NYSE:GRA) based in Maryland. In addition, Brocair also issued a fairness opinion to the Special Committee of the Board of Directors of Synthetech.
+</p>
+Grace acquired Synthetech from shareholders for an aggregate purchase price of $19.2 million. The transaction closed November 18, 2010. Synthetech will be integrated into Grace Davison's Specialty Technologies business and become a wholly owned subsidiary of Grace.
+</p>
+                    <p>
+Rusty Ray, Partner at Brocair, explained, "This has been a transformative transaction for our client, Synthetech, and provides the company with a tremendous advantage that comes with being part of a larger entity."
+</p>
+                    <p>
+On June 28, Synthetech Inc. announced that it had engaged Brocair Partners LLC to conduct a comprehensive review of strategic alternatives aimed at enhancing shareholder value. Strategic alternatives Synthetech considered included, among others, the execution of Synthetech's operating plan, the sale or acquisition of assets or businesses, partnering or other collaboration agreements or arrangements, a merger or sale of the company or other strategic transactions.
+</p>
+                    </div>
+                    <div class="articleColumn">
+                    <p>
+                    "We worked with the Board of Synthetech to explore options to create shareholder value," explained Gregg Blake, Managing Partner at Brocair. "In the end the transaction with Grace delivered value for shareholders, and a significant premium over Synthetech's recent trading range."
+                    </p>
+                    <p>
+                    The definitive merger agreement was announced on September 14.
+                    </p>
+                    <p>
+                    Synthetech, Inc., a fine chemicals company, specializes in organic synthesis, biocatalysis, and chiral technologies. The company develops and manufactures proprietary custom chiral intermediates, amino acid derivatives, specialty amino acids, peptide fragments, and specialty resins primarily for the pharmaceutical industry, as well as produces pharmaceutical intermediates. Synthetech's products are used in the development and manufacture of therapeutic peptides and peptidomimetic small molecule drugs at various stages of a customer's clinical development pipeline, and are used as ingredients in drugs for the treatment of AIDS, cancer, cardiovascular, and other diseases. The company was founded in 1981 and is headquartered in Albany, Oregon.
+                    </p>
+                    <p>
+                    Grace is a leading global supplier of catalysts and other products to petroleum refiners; catalysts for the manufacture of plastics; silica-based engineered and specialty materials for a wide range of industrial applications; sealants and coatings for food and beverage packaging, and specialty chemicals, additives and building materials for commercial and residential construction. Founded in 1854, Grace has operations in over 40 countries.
+                    </p>
+                    </div>
+                    <br class="end">
+                </article>
+                <article id="news4">
+                <h1 class="newsHeader">Brocair Partners Quoted in Article on Medical Device Industry</h1>
+                    <hr>
+                    <h2>Spare Parts Inc.</h2>
+                    <div class="articleColumn">
+                    <p>
+                        The Deal <br />
+                        by Thomas Zadvydas <br />
+                        Updated 12:48 PM, Nov-12-2010 ET
+                    </p>
+                    
+<p>Despite political uncertainty over the fate of healthcare reform, the medical device business keeps chugging along. The sector has seen almost 20 deals since President Obama signed healthcare legislation into law March 24. According to the Advanced Medical Technology Association, America's medical device sector, or medtech, produced about $136 billion in products in 2008, the last year for which data is available, a 21% increase over 2005.
+</p>
+<p>
+Healthcare boutique Walden Group Inc. of Tarrytown N.Y., reported 55 medtech deals over the first six months of 2010, compared with 12 in the same period in 2009.
+</p>
+<p>
+Medtech has long been a rich vein of M&amp;A -- though not for private equity. "Traditionally, strategics have dominated M&amp;A, and having a private equity player come in is significantly rarer than in other industries," says Goodwin Procter LLP partner Raymond Zemlin. "Strategics tend to be willing to pay more because they see synergies. You don't have to add a whole new sales force." 
+</p>
+<p>
+The industry is diverse, high tech and highly regulated. Funding for startups, often based on innovations from academia or research hospitals, is relatively abundant, and capital costs are high -- but not nearly as high as for, say, biotech. The big strategics then sort through emerging companies and acquire regularly.
+</p>
+<p>
+Currently, cardiovascular and orthopedics look particularly attractive to big players -- Medtronic Inc., Boston Scientific Corp., Johnson &amp; Johnson, Abbott Laboratories , Cardinal Health Inc. and European players Covidien plc, and Roche Holding Ltd.--which have either struck deals or are on the prowl, utilizing large cash hoards amassed during the downturn and fueled by 78.2 million aging baby boomers. "People are getting older, they need new hips, new knees, new backs," says Zemlin.
+</p>
+<p>
+Another factor: a 2.3% excise tax taken from the sales of any instrument, apparatus, implement or machine intended to affect the structure or any function of the body or diagnose or treat disease, according to a definition from the Federal Food, Drug, and Cosmetic Act. The levy is designed to generate $20 billion over a decade to help fund healthcare reform. The tax takes effect in 2013, and companies are rethinking strategy because of it, including M&amp;A, say observers.
+</p>
+                    
+                    </div>
+                    <div class="articleColumn">
+                    <div id="content">
+
+<p>
+Valuations remain relatively healthy, say bankers. <b>"I think 10 times to even low teens in terms of [Ebitda] multiples are things we've seen," says Rusty Ray of healthcare investment bank Brocair Partners LLC.</b>
+</p>
+<p>
+"For your Ebitda-based businesses that actually produce positive cash flow, I think 10 times is probably a better estimate; in the peak of the market it was more 12, 13, 14 times," says Leerink Swann LLC healthcare banker Adam Berger. Data from HT Capital Advisors LLC reported Ebitda multiples as high as 20.9 times in early 2008. Of course, says Berger, "there are medtech companies that don't make any money. They're more revenue multiples. It's highly variable, but typically those are probably 5 times revenues."
+</p>
+<p>
+One of the biggest medtechs is Minneapolis-based Medtronic, which on April 30 grabbed local heart valve and cardiovascular device maker ATS Medical Inc. for $370 million. It retains a sizable cash hoard: $1.3 billion as of July 30, according to a Sept. 8 10-Q. Four months later it snatched up Eatontown, N.J., bone-grafting materials manufacturer Osteotech Inc. for $123 million.
+</p>
+<p>
+Medtronic has 20% of the world's heart valve market and wants to expand into tissue valves, an ATS product, says analyst Ernest Andberg of Feltl and Co. Tissue valves have a global market of $800 million to $900 million. "It gives [ATS] more feet on the street and really solid financial backing to expand," Andberg says.
+</p>
+<p>
+ATS reported $37.6 million in net sales for the six months ended July 3, compared with $38.1 million for the prior-year period. Its $10.3 million operating loss amounts to 27.5% of sales.</p> <p>Medtronic's ATS deal builds on three prior transactions: the February 2009 acquisition of Ventor Technologies Ltd. for $325 million, the $700 million deal for CoreValve Inc. two months later and the purchase of Italy's Invatec SpA, which develops heart disease treatments, for up to $500 million in January 2010.</p> <p>Medtronic bought Osteotech to beef up its bone-healing franchise. Osteotech had tapped Deutsche Bank Securities Inc. for a strategic review after its stock hit a 52-week low. Osteotech reported a $1.4 million loss on $46.5 million in revenue for the six months ended June 30, compared with a $3 million loss on $47.4 million for the same period last year. Its $3.1 million in Ebitda for 2009 was down 63% from a year earlier. Analyst Matt Dolan of Roth Capital Partners LLC believes the target was on the block for at least a year, though the company would not confirm this. "Osteo[tech] was trying to break even for the year. With Medtronic they'll be able to eliminate a lot of redundant costs," he says.
+</p>
+<p>
+These are not unusual stories in medtech. Will dealmaking continue? "I think 2011 will be a better year, there will be more M&amp;A activity, but it's still going to be choppy," says Zemlin. "I know companies, some of my clients included, certainly hope that we haven't heard the last word on the device tax."</p>
+
+                    
+                    
+                    </div>
+                    <br class="end">
+                </article>
+
+            </div>
+        </section>
+    </div>
+    <br class="end">
+</div>
+    <footer>
+    <span class="companyLegal">Brocair Partners clears securities transactions through Billow Butler & Company, LLC.</span>
+    <nav>
+        <ul>
+            <li><a href="sitemap.html">Site Map</a></li>
+            <li><a href="about.html?location=newyork">Contact</a></li>
+            <li><a href="satisfiedclients.html">Satisfied Clients</a></li>
+        </ul>
+    </nav>
+    <br class="end">
+    </footer>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="assets/scripts/brocair.1.js"></script>
+<script>
+
+var urlmember = location.search.slice(location.search.search("member="),
+                                      ((location.search.search("&")+1) || 1)-1 || 100).split("=")[1];
+var urllocation = location.search.slice(location.search.search("location="),
+                                      ((location.search.search("&")+1) || 1)-1 || 100).split("=")[1];
+
+if (urlmember) {
+    brocair.toMember(urlmember);
+} else if (urllocation) {
+    brocair.toLocation(urllocation);
+} else if (location.search.search("news")+1) {
+    brocair.toNews();
+}
+$("#aboutFront .member").each(
+    function(){
+        $(this).click(function(){
+			if(this.className != "member"){
+            	brocair.toMember(this.className)
+			}
+        })
+    });
+</script>
+</body>
+</html>

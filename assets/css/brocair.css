@@ -1,0 +1,885 @@
+h1 { color:#0078ae; font-size:20px; margin:0}
+h2 { color:#8298a8; font-size:15px; margin:0}
+ul { list-style: none outside none; padding: 0; font-size:0;}
+hr { width:90px; text-align:left;margin-left:0; background-color:#e4eef5; color:#e4eef5; border: none #e4eef5; height:1px;margin:0;}
+a {cursor: pointer;text-decoration:none}
+/* These contain rules to help IE7 */
+img{-ms-interpolation-mode: bicubic; border:0}
+br.end{clear:both !important;font-size:0;width:0;height:0;line-height:0;}
+
+/* Main Styles */
+body, li {font-size: 13px}
+body {
+	font-family:BentonSansCond;
+	margin:0;
+	background-color: #eee;
+}
+div.contain {
+	margin:0 auto 0 auto;
+	width:1024px;
+	background-color: #fff;
+}
+div.contain.main div#content { margin: 26px 36px }
+div.contain.story div#content { margin: 0 36px 0 0 }
+div.contain.story div#content.news {
+	margin:0;
+}
+header {}
+.active > a{color:#0078AE !important}
+header h1 { color:#fff}
+
+/* hr method that works a different way to compensate for IE7 */
+header hr{
+	text-align:right;
+	margin-left:auto;
+	margin-right:0
+}
+header p {
+	margin:9px 0 38px 0;
+	font-size:15px;
+}
+header img.logo {
+	float:left;
+	margin:22px 0 18px 32px;
+	display:block;
+}
+header nav {
+	float:right;
+}
+header nav ul {
+	font-family: bentonSansCond-Medium;
+	margin: 45px 0 0 0;
+}
+header ul#dropDownPerspective, header ul#dropDownServices, header ul#dropDownResearch, header ul#dropDownGlobal, header ul#dropDownAbout {
+	font-family: BentonSansCond-Medium;
+    background-color: #E2E9ED;
+    left: 357px;
+    padding: 12px 16px;
+    position: absolute;
+    top: 94px;
+    width: 153px;
+    display:none;
+    margin:0;
+    z-index:9000;
+}
+header ul.dropDown li {
+	color:#66757c;
+	font-size:12px;
+	padding:3px;
+
+}
+header ul.dropDown li a {
+	color: #8298a8;
+}
+header ul.dropDown li a:hover {
+	color:#0078ae;
+}
+header nav ul li {
+	text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 18px 24px 18px;
+}
+header nav ul li a{
+	color: #8298a8;
+}
+header nav ul li a:hover{
+	color: #0078ae;
+}
+div.contain header {
+	border-bottom: #ececec solid 8px;
+	overflow: hidden;
+}
+/*	Main class is for the home and any page that 
+	contains a more complicated and interactive billboard */
+
+div.contain.main header .billboard {
+	position:relative;
+	font-size:0;
+	width:1024px;
+	color: white;
+	clear: left;
+}
+div.contain.main #billboards {
+	overflow:hidden;
+	width:1024px;
+	height:382px;
+}
+div.contain.main #billboards .bbcontain {
+	position:absolute;
+	height:382px;
+	width:5000px;
+}
+div.contain.main header .billboardContent {
+	width:1024px;
+	background:url(../images/home_bb.jpg) no-repeat;
+}
+div.contain.main section {
+	width:50%;
+	min-height:100px;
+	float:left;
+}
+
+.story header .rotatingHeader {
+	display:none;
+	overflow:hidden;
+	width:1024px;
+	height:205px;
+}
+.story header .rotatingHeader .slides_control {
+	height:205px;
+}
+
+.story section {
+	width:46%;
+	float:left;
+}
+.story section.rightSection { margin-left:7%; }
+.story section.sitemap {
+	float:none;
+
+}
+.story section.dropdownWithPDF { width: 100%; }
+.story section.dropdownWithPDF img { float: right; }
+/*	Story class is for any sub section of the website,
+	It's not named section, subsection, or article as this could be confusing */
+.story p {
+	font-size:13px;
+	color:#8298a8;
+}
+
+.story header .billboard {
+	color: white;
+	clear: left;
+	/*background:url(../images/research_bb.jpg) no-repeat;*/
+	position:relative;
+	width:100%;
+	height:205px;
+}
+aside a:hover {
+	color:#0078AE;
+}
+.story aside {
+	width:183px;
+	float:left;
+
+}
+.story aside.sitemap {
+	float:none;
+}
+.story #map {
+	background-image:url(../images/map.png);
+	width:775px;
+	height:480px;
+	position:relative;
+}
+.story #rollMap {
+	background-color: transparent;
+		height:480px;
+}
+.story #map a {
+	position:absolute;
+	border:0;
+	display:block;
+}
+.story #map a img {width:100%;height:100%;}
+.story aside > ul {
+	color:#66757c;
+	padding: 32px 26px 20px 32px;
+	background-color:#e2e9ed;
+	display:block;
+	margin-left:0;
+	height:321px;
+	margin-top:0;
+	margin-bottom:22px;
+	font-family:bentonsanscond-medium;
+}
+.story aside.sitemap > ul {
+	color:#66757c;
+	padding: 0 26px 20px 36px;
+	background-color:#fff;
+	display:block;
+	margin-left:0;
+	height:auto;
+	margin-top:0;
+	margin-bottom:22px;
+	font-family:bentonsanscond-medium;
+}
+.story aside.sitemap .heading {
+	font-size:12px;
+	text-transform: uppercase;
+	margin-top:8px;
+}
+.story aside.sitemap .heading a {
+	color:#0078ae;
+}
+.story aside.sitemap ul > li{
+	padding-bottom: 1px;
+	font-size:11px;
+}
+.story aside.sitemap ul li > ul{
+	display:block;
+	margin:0;
+	padding:1px 0 0 6px;
+}
+.story aside.sitemap ul li > ul li {
+	padding:0 0 1px 0;
+	border:0;
+}
+
+.story aside a {
+	color:#66757C
+}
+.story aside a:hover {
+	color: #0078AE
+}
+.story aside ul > li{
+	padding-bottom: 6px;
+	font-size:12px;
+}
+.story aside ul li > ul{
+	display:block;
+	margin:0;
+	padding:3px 0 0 6px;
+}
+.story aside ul li > ul li {
+	padding:1px 0 1px 0;
+	border:0;
+}
+.story aside a.backToMap {
+	background-color:#0078ae;
+	display:block;
+	font-size:12px;
+	text-transform: uppercase;
+	font-family: bentonsanscond-medium;
+	color:#fff;
+	padding:10px 0 10px 26px;
+	width:157px;
+}
+.story aside.globalLinks ul a {
+	color:#66757C;
+}
+.story aside.globalLinks ul a:hover {
+	color:#0078AE;
+}
+.story .sections {
+	float:left;
+	width: 733px;
+	padding:25px 36px;
+}
+.story .sections.sitemap {
+	padding:15px 36px 5px 36px;
+	float:none;
+}
+.story .sections.sitemap section {
+	float:none;
+}
+.story .sections.about section {
+	width:100%;
+	min-height:100px;
+}
+.story .sections.perspective div.summary h1 {
+	margin-bottom: 13px;
+	line-height: 31px;
+}
+.story .sections.perspective div.summary h1,
+.story .sections.perspective .perspectiveSection,
+.story .sections.global div.summary div,
+.story .sections.global section div,
+.story .sections.global section ul {
+	display:none;
+}
+.story .sections.perspective div.summary h1.overview,
+.story .sections.perspective .perspectiveSection.overview,
+.story .sections.global div.summary div.usSum,
+.story .sections.global section div.usLit,
+.story .sections.global section ul.usStats {
+	display:block;
+}
+.story .sections.global .lit { margin-right: 20px; }
+.story .sections.global div,
+.story .sections.global ul {
+
+}
+.story .sections.global .countryStats {
+	border-left: 1px solid #E4EEF5;
+	padding-left: 20px;
+	width: 46%;
+}
+.story .sections.global .countryStats hr {
+	margin: 4px 0px 5px;	
+}
+
+.story .sections.perspective p.sectionHeading, .story .sections.transactions p.sectionHeading {
+	font-family: BentonSansCond;
+    font-size: 17px;
+	margin-top: 10px;
+	color:#3a4448;
+}
+.story .summary {
+	margin-bottom: 22px;
+}
+.story .sections.perspective .summary {
+	margin-bottom: 12px;
+}
+.story .summary p {
+	font-size:17px;
+	color:#3a4448;
+}
+.story .summary h1 {
+	font-family:BentonSansCond-Light;
+	font-size:39px;
+	color:#0078ae;
+	margin-bottom:8px;
+}
+.story .services .serviceSection {
+	display:none;
+}
+.story .services .mergers {
+	display:block;
+}
+.story .services .summary {
+	display:block;
+	margin-bottom: 10px;
+}
+.story .services .summary h1 {
+	display:none;
+}
+.story .services .summary h1.mergers {
+	display:block;
+}
+.story .services p .ceoquote {
+	display:block !important;
+	font-style:italic;
+	color:inherit;
+	margin-top:18px;
+}
+.story .sections.insight div {
+	display:none;
+}
+.story .sections.insight div.summary,
+.story .sections.insight div.blake {
+	display:block;
+}
+
+.story .sections.insight p {
+	margin-top:11px;
+	margin-bottom:16px;
+}
+.story .sections.insight span.name {
+	color:#3a4448;
+	font-size:14px;
+}
+.story .sections.insight h1 {
+    font-family: bentonsanscond-book;
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 6px;
+    margin-top: 3px;
+	color:#0078AE;
+
+}
+.story .insightSection h2 {
+    color: #0078AE;
+    font-family: BentonSansCond-Medium;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 12px;
+}
+.story .insightSection .nudgeDown {padding-top:44px;}
+.story .insightSection .insightPhoto { 
+	width: 134px; 
+	text-transform:uppercase;
+}
+.story .insightSection .insightContent { 
+	width: 575px; 
+	padding-left: 10px;
+}
+.story .insightSection .insightContent h1 { font-size: 21px; }
+.story .sections.insight .summary {
+	margin-bottom:12px;
+}
+.story .sections.insight .member{
+	font-size:12px;
+	font-family: bentonsanscond-medium;
+	text-transform: uppercase;
+	margin-left:36px;
+}
+.story .sections.insight img {
+	display:block;
+	margin-bottom:12px;
+}
+
+.story .news .sections.about {
+	width:768px;
+	color:#3a4448;
+}
+
+.story .sections.about {
+	color:#3a4448;
+}
+.story .sections.about #members img{display:block;}
+.story .sections.about #aboutFront .member {
+	width:182px;
+	float:left;
+	margin-top:12px;
+}
+.story .sections.about #aboutFront .member img {
+	cursor:pointer;
+}
+.story .sections.about #members {
+	float:left;
+	width:152px;
+}
+.story .sections.about #members,
+.story .sections.about #memberLit {
+	display:none;
+}
+.story .sections.about #memberLit {
+	float:right;
+	width:580px;
+}
+.story .sections.about #members > div,
+.story .sections.about #memberLit > div {
+	margin-top:12px;
+	display:none;
+}
+.story .sections.about #memberLit > div {
+	margin-top:38px;
+}
+.story .sections.about #memberLit span {
+	margin-top:18px;
+	font-family:bentonsanscond-medium;
+	color: #0078ae;
+	font-size:11px;
+	display:block;
+}
+.story .sections.about .member .title,
+.story .sections.about #members .title {
+	font-size:17px;
+	display:block;
+	margin-bottom:10px;
+	font-family:bentonsanscond-regular;
+}
+.story .sections.about .member .name{ cursor: pointer; }
+.story .sections.about .member .name,
+.story .sections.about #members .name{
+	font-size:12px;
+	display:block;
+	font-family: bentonsanscond-medium;
+	text-transform: uppercase;
+	margin-bottom:22px;
+	margin-top:11px;
+}
+.story .sections.about h1 {
+	margin-top:0;
+}
+.story .sections.about h1,
+.story .sections.transactions h1,
+.story .sections.sitemap h1{
+	font-size:39px;
+	margin-bottom:5px;
+	font-family:bentonsanscond-book;
+	font-weight: normal;
+}
+.story .sections.about h1.locationsHeader,
+.story .sections.about .location {
+	display:none;
+}
+.story .sections.about .location img{
+	margin-right: 111px;
+	float:right;
+}
+.story .sections.about .news {
+	display:none;
+}
+.story .sections.about .news p {
+	color:#536c7f
+}
+.story .sections.about .news h1 {
+    font-size: 21px;
+    margin-bottom: 11px;
+}
+.story .sections.about .location h2,
+.story .sections.about .news h2 {
+    color: #3A4448;
+    font-size: 17px;
+    font-weight: normal;
+    margin: 12px 0 18px;
+}
+.story .sections.about .location .address {
+	font-family:bentonsanscond-medium;
+	font-size:11px;
+	color:#0078ae;
+}
+.story .sections.about .news #newsDropdown {
+	color:#fff;
+	font-size:12px;
+	background-color:#0078ae;
+	border:0 none;
+	margin-bottom:30px;
+}
+.story .sections.about .news .articleColumn{
+	float:left;
+	width:383px;
+}
+.story .sections.transactions .transaction {
+    border-bottom: 1px solid #E4EEF5;
+    margin: 10px 0 20px;
+    padding-bottom: 8px;
+}
+.story .sections.transactions h2{
+	font-family:bentonsanscond;
+	font-size:12px;
+	color:#0078ae;
+	text-transform: uppercase;
+	margin-bottom:10px;
+}
+.story .sections.transactions {
+	font-family:bentonsanscond-medium;
+	width:952px;
+	font-size:11px;
+	color:#3a4448;
+}
+.story .sections.transactions .pStart {
+	display:block;
+	margin-bottom:12px;
+	font-family:bentonsanscond-medium;
+	color:#3a4448;
+}
+.story .sections.transactions p {
+	font-size:12px;
+	color:#8298a8;
+	margin-top:10px;
+}
+.story .sections.transactions section {
+	width:100%;
+	float:none;
+	clear:both;
+}
+.story .sections.transactions .size {
+	float:left;
+	font-size:12px;
+	width:116px;
+	margin-right:38px;
+}
+.story .sections.transactions .company {
+	width:296px;
+	float:left;
+	padding-left:65px;
+	margin-bottom: 12px;
+}
+.story .sections.transactions .company.usflag {
+	background:url(../images/trans/usflag.png) no-repeat 0 0px
+}
+.story .sections.transactions .company.germanflag {
+	background:url(../images/trans/germanyflag.png) no-repeat 0 0px
+}
+.story .sections.transactions .company.swedenflag {
+	background:url(../images/trans/swedenflag.png) no-repeat 0 0px
+}
+.story .sections.transactions .company.indiaflag {
+	background:url(../images/trans/indiaflag.png) no-repeat 0 0px
+}
+.story .sections.transactions .company.irishflag {
+	background:url(../images/trans/irishflag.png) no-repeat 0 0px
+}
+.story .sections.transactions .company.ukflag {
+	background:url(../images/trans/ukflag.png) no-repeat 0 0px
+}
+.story .sections.transactions .company.ukfrenchflag {
+	background:url(../images/trans/ukfrenchflag.png) no-repeat 0 0px
+}
+.story .sections.transactions .more {
+	float:left;
+}
+.story .services {
+	font-size:13px;
+}
+.story .services p span,
+.story .perspectiveSection p span
+{
+	font-family: BentonSansCond-Medium;
+	color:#0078ae;
+}
+story section p {
+	margin-top: 0;
+	margin-bottom: 22px;
+	margin-right: 19px;
+	line-height: 18px;
+}
+.story .testimonialsSection {
+	margin:22px 32px;
+	width:556px;
+}
+.story .testimonialsSection .testimonials ul li {
+	padding-bottom:22px;
+	margin-bottom:22px;
+	border-bottom:solid 1px #e4eef5;
+}
+.story .testimonials {
+	font-family: BentonSansCond-Medium;
+}
+.story .testimonials ul li {
+    background-image: url("../images/testimonialbg.png");
+    background-repeat: no-repeat;
+    padding-left: 19px;
+}
+.story .testimonials .name {
+	color:#3a4448;
+    display: block;
+    text-transform: uppercase;
+}
+.story .testimonials .desc {
+	color:#8298a8;
+	display: block;
+}
+.story .testimonials p {
+    background-image: url("../images/testimonialbottom.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    color: #0078AE;
+    margin: 17px 0 0 36px;
+    padding-bottom: 7px;
+    padding-right: 45px;
+}
+.story .global section ul {
+	font-family: bentonsanscond-medium;
+}
+.story .global section ul li{
+	margin-bottom:29px;
+}
+.story .global section ul .statName {
+	color: #0078AE;
+    font-family: bentonsanscond-medium;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.story .global section ul .statValue {
+	color: #3A4448;
+    display: block;
+    font-family: BentonSansCond-Book;
+    font-size: 36px;
+}
+.story .global section ul .statDetail {
+	color: #8298a8;
+    font-size: 12px;
+}
+.story div.hcSpendingGraph {
+	clear:both;
+	font-family: BentonSansCond-Medium;
+}
+.story div.hcSpendingGraph .spendTitle{
+	display:block;
+	color:#0078ae;
+	text-transform: uppercase;
+}
+.story div.hcSpendingGraph .spendDetail{
+	font-size:11px;
+	color:#8298a8;
+	display:block;
+}
+.story div.hcSpendingGraph .spendHorzBar {
+    background-image: url("../images/horzNotches.png");
+    background-position: 0 14px;
+    background-repeat: repeat-x;
+    color: #8298a8;
+    font-size: 11px;
+    height: 25px;
+    margin-right: -56px;
+    padding-left: 150px;
+}
+.story div.hcSpendingGraph .spendHorzBar span {
+	display: inline-block;
+    text-align:right;
+    width: 70px;
+}
+.story div.hcSpendingGraph .spendHorzBar span.sdig {
+	padding-left:4px;
+	width:65px;
+}
+.story div.hcSpendingGraph ul {
+	margin:0;
+}
+.story div.hcSpendingGraph ul li{
+	margin-top:8px;
+	color:#8298a8;
+	clear:both;
+	display:block;
+	font-size: 12px
+}
+.story div.hcSpendingGraph ul li div {
+	float:left;
+}
+.story div.hcSpendingGraph ul li div.item{
+    padding-right: 12px;
+    text-align: right;
+    width: 203px;
+}
+.story div.hcSpendingGraph ul li div.figure{
+	height:16px;
+	margin-right:6px;
+}
+
+/* main section elements */
+header .billboard div.topRightText {
+	text-align:right;
+	margin:0 108px 0 45%;
+}
+header .billboardContent {
+	height:383px;
+	float:left;
+	overflow:hidden;
+}
+header .billboard div.topRightText h1 {
+	font-weight:normal;
+	font-size:53px;
+	margin:7px 0 2px 0;
+
+}
+header .billboard div.topRightText h1 span {
+	font-family: BentonSansCond-Light
+}
+header .slideButtons {
+	width:1024px;
+	position:absolute;
+	top:183px;
+	left:0;
+	height:178px;
+	z-index: 9001;
+}
+header .slideButtons a {
+	margin:0 12px;
+	width:0;
+	height:0;
+	padding:0 40px 39px 0;
+	background:url(../images/arrows.png);
+}
+header .slideButtons a.left {
+	background-position: 0 0;
+	float:left;
+}
+header .slideButtons a.right {
+	background-position: -40px 0;
+	float:right;
+}
+header .billboard .lowerText {
+	display:block;
+	font-size: 15px;
+	position:absolute;
+	left:78px;
+	top:349px;
+}
+header .pagination {
+	background-color: #0078ae;
+	text-align: center;
+	font-size: 27px;
+	margin:0;
+}
+header .pagination .current a {
+	color:#3BAADC;
+}
+header .pagination li {
+	display:inline-block;
+	font-size: 24px;
+	color:#fff;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+header .pagination li a{
+	color:#fff;
+}
+header .pagination a:hover{
+	color: #3baadc;
+}
+section .synopsis {
+	float:left;
+	width: 340px;
+	margin-right:15px;
+	margin-left: 30px;
+}
+section .synopsis h1{
+	margin-bottom:11px;
+}
+section .synopsis h2{
+	margin-top:13px;
+	margin-bottom:12px;
+}
+section .synopsis button {
+    background-color: #0071A4;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+    border-bottom: 1px solid #CCE3ED;
+    color: #FFFFFF;
+    font-family: BentonSansCond;
+    font-size: 10px;
+    font-weight: bold;
+	letter-spacing:1px;
+    padding: 5px 7px;
+    text-transform: uppercase;
+}
+.readMore, .readMore:hover, .synopsis a, synopsis a:hover{
+	color:#0078ae;
+	cursor:pointer;
+	text-decoration:none;
+	font-weight: normal;
+}
+section .synopsis hr { 
+	width:100%;
+	margin-bottom: 13px;
+}
+
+section ul.faces li {
+	display: inline-block;
+	font-family: BentonSansCond-Medium;
+	font-size:12.5px;
+	text-align: center;
+	text-transform: uppercase;
+	padding:5px;
+}
+section ul.faces li {
+
+}
+section ul.faces li img{
+	display:block;
+	border: solid 3px #fafafa;
+	margin-bottom: 7px;
+}
+
+section ul.contentList {
+	list-style:inside disc;	
+}
+section ul.contentList li{
+	color:#8298a8;
+	margin-bottom: 16px;
+}
+
+footer {
+	margin: 0 36px 13px 36px;
+	border-top: solid #e4eef5 1px;
+	padding: 15px 0;
+}
+footer .companyLegal {
+	float:left;
+}
+footer nav {
+	float:right;
+	margin-top:5px;
+}
+footer nav a {
+	color:#000;
+}
+footer nav ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+/* These are IE7 only rules */
+
+*:first-child+html ul.faces li,
+*:first-child+html header nav ul li,
+*:first-child+html footer nav ul li { display:inline } 
+
+*:first-child+html header .billboard div.topRightText h1 {margin-top:10px}
+*:first-child+html header .billboard div.topRightText p {margin:0 0 28px 0 }
